@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Height -->
+    <dimen name="height_mainTitle">50dp</dimen>
+    <dimen name="height_rekognationComment">30dp</dimen>
+    <dimen name="height_image">250dp</dimen>
+    <dimen name="height_dividing_line">2dp</dimen>
+
+    <!-- Font Size -->
+    <dimen name="fontSize_main">19dp</dimen>
+    <dimen name="fontSize_rekognation_comment">15dp</dimen>
+    <dimen name="fontSize_imageUpload">1</dimen>
+</resources>

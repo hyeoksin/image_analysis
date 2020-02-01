@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Main Title-->
+    <TextView
+        android:id="@+id/mainTitle_textView"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:textColor="@color/colorLightBlack"
+        android:textSize="@dimen/fontSize_main"
+        android:textStyle="bold"
+        android:text="@string/title_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_mainTitle">
+    </TextView>
+
+    <!-- Dividing Line-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_dividing_line"
+        android:background="@color/colorLightBlack" />
+
+    <!-- Image Rekocnation -->
+    <include
+        layout="@layout/activity_rekognation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Button Upload Image-->
+    <TextView
+        android:id="@+id/button_uploadImage"
+        android:layout_margin="10dp"
+        android:textSize="@dimen/fontSize_main"
+        android:gravity="center"
+        android:background="@drawable/button_uploadimage"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:text="@string/image_upload"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_mainTitle">
+    </TextView>
+
+
+
+</LinearLayout>

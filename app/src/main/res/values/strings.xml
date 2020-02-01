@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">이미지분석</string>
+    <string name="title_main">IMAGE REKOGNATION</string>
+    <string name="comment_rekognation">Please upload your Image</string>
+    <string name="image_upload">Image Upload</string>
+
+    <!-- Rekognization Option -->
+    <string name="web">Web</string>
+    <string name="logo">Logo</string>
+    <string name="face">Face</string>
+    <string name="literal">Literal</string>
+    <string name="label">Label</string>
+    <string name="landmark">Landmark</string>
+    <string name="cancel">Cancel</string>
+</resources>

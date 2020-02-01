@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/button_logo"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:background="@drawable/button_uploadimage"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fontSize_main"
+        android:textStyle="bold"
+        android:text="@string/logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_mainTitle"/>
+
+    <TextView
+        android:id="@+id/button_web"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:background="@drawable/button_uploadimage"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fontSize_main"
+        android:textStyle="bold"
+        android:text="@string/web"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_mainTitle"/>
+
+    <TextView
+        android:id="@+id/button_face"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:background="@drawable/button_uploadimage"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fontSize_main"
+        android:textStyle="bold"
+        android:text="@string/face"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_mainTitle"/>
+
+    <TextView
+        android:id="@+id/button_literal"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:background="@drawable/button_uploadimage"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fontSize_main"
+        android:textStyle="bold"
+        android:text="@string/literal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_mainTitle"/>
+
+    <TextView
+        android:id="@+id/button_label"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="@drawable/button_uploadimage"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fontSize_main"
+        android:textStyle="bold"
+        android:text="@string/label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_mainTitle"/>
+
+    <TextView
+        android:id="@+id/button_landmark"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:background="@drawable/button_uploadimage"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fontSize_main"
+        android:textStyle="bold"
+        android:text="@string/landmark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_mainTitle"/>
+
+    <TextView
+        android:id="@+id/button_cancel"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="@drawable/button_uploadimage"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fontSize_main"
+        android:textStyle="bold"
+        android:text="@string/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_mainTitle"/>
+
+</LinearLayout>

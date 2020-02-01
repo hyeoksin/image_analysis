@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    1) if you give the value of fillViewport to true,
+    the ScrollView will be increased as the sub view is increased
+    2) if you give the propery of scrollbars to none,
+    you can't see the scrollbar
+    3) The difference between padding and margin is that the padding covers
+    the contents of the layout and Margin covers the whole layout
+    -->
+
+    <ScrollView
+        android:padding="5dp"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Rekognation Comment -->
+            <TextView
+                android:gravity="center"
+                android:textSize="@dimen/fontSize_rekognation_comment"
+                android:textStyle="bold"
+                android:textColor="@color/colorLightBlack"
+                android:text="@string/comment_rekognation"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_rekognationComment">
+            </TextView>
+
+            <!-- Uploaded Image -->
+            <ImageView
+                android:id="@+id/target_ImageView"
+                android:layout_margin="15dp"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_image">
+            </ImageView>
+
+            <!-- Dividing Line-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_dividing_line"
+                android:background="@color/colorLightBlack" />
+
+            <!-- Rekognation Result-->
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/result_textView"
+                android:textColor="@color/colorLightBlack"
+                android:textStyle="bold"
+                android:textSize="@dimen/fontSize_rekognation_comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
